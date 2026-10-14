@@ -4,11 +4,11 @@ import plotly.express as px
 
 st.set_page_config(
     page_title="Intelligent Cloud Resource Allocation",
-    page_icon="☁️",
+    page_icon="",
     layout="wide"
 )
 
-st.title("☁️ Intelligent Cloud Resource Allocation")
+st.title(" Intelligent Cloud Resource Allocation")
 st.caption("Machine Learning Based Predictive Scaling Dashboard")
 
 st.info(
