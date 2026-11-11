@@ -1,7 +1,24 @@
-import streamlit as st
-import pandas as pd
-import plotly.express as px
 
+import os
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
+CLOUDSIM_PATH = os.path.join(
+    DATA_DIR,
+    "week8_cloudsim_simulation_results.csv"
+)
+
+OPTIMIZED_PATH = os.path.join(
+    DATA_DIR,
+    "final_combined_results.csv"
+)
 st.set_page_config(
     page_title="Intelligent Cloud Resource Allocation",
     page_icon="",
