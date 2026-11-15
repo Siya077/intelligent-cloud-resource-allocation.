@@ -53,7 +53,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("☁️ Intelligent Cloud Resource Allocation")
+st.title(" Intelligent Cloud Resource Allocation")
 
 st.caption(
     "Machine Learning Based Predictive Scaling Dashboard"
